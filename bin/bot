@@ -1,0 +1,5 @@
+#!/bin/bash
+export XDEBUG_CONFIG="remote_enable=on remote_port=9000 remote_host=192.168.33.1"
+export PHP_IDE_CONFIG="serverName=bot"
+
+php code/bot.php

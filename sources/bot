@@ -1,4 +1,0 @@
-#!/bin/bash
-XDEBUG_CONFIG="xdebug.remote_enable=on xdebug.remote_port=9000 xdebug.remote_host=192.168.33.1"
-PHP_IDE_CONFOG="serverName=bot"
-php -i | grep xdebug

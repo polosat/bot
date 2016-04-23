@@ -25,8 +25,4 @@ php /tmp/composer/installer --install-dir=/usr/local/bin --filename=composer
 rm -r /tmp/composer
 
 echo "Composing vendor libraries"
-composer ~/projects/bot
-
-echo "Making the main script executable"
-chmod +x ~/projects/bot/bot
-
+composer --working-dir=/home/vagrant/projects/bot/sources install
