@@ -1,0 +1,18 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure(2) do |config|
+  config.vm.box = "ubuntu/trusty64"
+  config.vm.network "private_network", ip: "192.168.33.40"
+  config.vm.provision :shell, path: "provision/bootstrap.sh"
+
+  config.vm.synced_folder "../sources/", "/home/vagrant/code/bot",
+    create: true,
+    owner: "vagrant",
+    group: "vagrant",
+    mount_options: ["dmode=770,fmode=664	"]
+
+  config.vm.provider "virtualbox" do |vb|
+    vb.memory = "1024"
+  end
+end
