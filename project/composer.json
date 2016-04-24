@@ -1,0 +1,15 @@
+{
+  "config": {
+    "vendor-dir": "lib/"
+  },
+
+  "require": {
+    "php-amqplib/php-amqplib": "2.6.*"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Demo\\ImageBot\\": "src/"
+    }
+  }
+}

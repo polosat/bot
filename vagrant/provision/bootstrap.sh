@@ -21,7 +21,7 @@ service rabbitmq-server restart
 
 echo "Installing Composer"
 wget --no-verbose -P /tmp/composer/ https://getcomposer.org/installer
-php /tmp/composer/installer --install-dir=/usr/local/bin --filename=composer
+php /tmp/composer/installer --install-dir=/home/vagrant/usr/local/bin --filename=composer
 rm -r /tmp/composer
 
 echo "Composing vendor libraries"
