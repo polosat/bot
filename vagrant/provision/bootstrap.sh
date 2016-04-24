@@ -25,4 +25,7 @@ php /tmp/composer/installer --install-dir=/usr/local/bin --filename=composer
 rm -r /tmp/composer
 
 echo "Composing vendor libraries"
-composer --working-dir=/home/vagrant/projects/bot/sources install
+composer --working-dir=/home/vagrant/projects/bot install
+
+echo "Creating a debugging bootstrap"
+cp /vagrant/provision/files/debug /home/vagrant/projects/bot/bin
