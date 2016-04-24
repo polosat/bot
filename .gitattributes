@@ -1,3 +1,3 @@
 project/bin/* eol=lf
 vagrant/provision/* eol=lf
-vagrant/provision/config/* eol=lf
+vagrant/provision/files/* eol=lf

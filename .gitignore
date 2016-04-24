@@ -1,4 +1,5 @@
 .idea
 vagrant/.vagrant
 project/lib
+project/bin/debug
 composer.lock
