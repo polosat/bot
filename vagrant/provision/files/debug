@@ -1,4 +1,6 @@
 #!/bin/bash
+# PHPSTORM: Settings -> Languages & Frameworks -> Servers -> Add
+# {name: bot, host: 192.168.33.40, mappings: {project: /home/vagrant/projects/bot}}
 export XDEBUG_CONFIG="remote_enable=on remote_port=9000 remote_host=192.168.33.1"
 export PHP_IDE_CONFIG="serverName=bot"
 ./bot
