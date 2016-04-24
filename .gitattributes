@@ -1,3 +1,4 @@
 project/bin/* eol=lf
+project/src/* eol=lf
 vagrant/provision/* eol=lf
 vagrant/provision/files/* eol=lf
