@@ -1,5 +1,3 @@
 #!/usr/bin/env php
 
-require __DIR__ . '/../lib/autoload.php';
-
-Demo\ImageBot\Processor::Run();
+echo "Hello world!";

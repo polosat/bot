@@ -2,4 +2,4 @@
 vagrant/.vagrant
 project/lib
 project/bin/debug
-composer.lock
+project/composer.lock
