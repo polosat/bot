@@ -1,5 +1,5 @@
 <?php
-namespace Demo\ImageBot;
+namespace Example\ImageBot;
 
 class Processor
 {

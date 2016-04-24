@@ -9,7 +9,7 @@
 
   "autoload": {
     "psr-4": {
-      "Demo\\ImageBot\\": "src/"
+      "Example\\ImageBot\\": "src/"
     }
   }
 }
